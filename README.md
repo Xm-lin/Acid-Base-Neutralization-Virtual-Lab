@@ -1,8 +1,3 @@
-Here is the fully translated and professionally polished English version of your `README.md`.
-
-I have optimized the structure, formatted all formulas with clean Markdown and LaTeX, and ensured the image paths and folder structures are correct.
-
----
 
 # 🧪 Acid-Base Titration Virtual Lab
 
@@ -42,19 +37,19 @@ This project is an **interactive acid-base titration virtual laboratory** specif
 * **Smart Dynamic pH Calculation Core**: Built-in non-linear chemical formula solvers accurately calculate four classic combinations: "Strong Acid + Strong Base", "Strong Acid + Weak Base", "Weak Acid + Strong Base", and "Weak Acid + Weak Base", perfectly simulating buffer regions and salt hydrolysis.
 * **Real-time Cloud Database Integration**: Chemical properties and constants are hosted on Google Sheets. The system automatically syncs the latest parameters in the background upon startup and features an offline caching mechanism.
 * **Highly Realistic Real-time Feedback**:
-* Supports 6 mainstream acid-base indicators (Phenolphthalein, Methyl Orange, Bromothymol Blue, Methyl Red, Thymol Blue, Phenol Red). The liquid color in the beaker evolves dynamically based on the current pH value.
-* Real-time plotting of the pH titration curve, which **automatically captures and labels the "Equivalence Point"** when neutralization is reached.
-
-
+  * Supports 6 mainstream acid-base indicators (Phenolphthalein, Methyl Orange, Bromothymol Blue, Methyl Red, Thymol Blue, Phenol Red). The liquid color in the beaker evolves dynamically based on the current pH value.
+  * Real-time plotting of the pH titration curve, which **automatically captures and labels the "Equivalence Point"** when neutralization is reached.
 
 ---
 
 ## 🖼️ Demo
 
 ### Option Page
-![Option Page Image](Demo_image/option_page.png)
+![Option Page](Demo_image/option_page.png)
+
 ### Main Page
-![Main Page Image](Demo_image/main_page.png)
+![Main Page](Demo_image/main_page.png)
+
 ---
 
 ## 🏗️ Architecture & Workflow
@@ -125,7 +120,7 @@ This project is an **interactive acid-base titration virtual laboratory** specif
 
 ## 🔬 Theory & Algorithm
 
-Rather than using basic linear approximations, this system performs non-linear equation solving based on true thermodynamic equilibrium constants ($K_a, K_b, K_w$):
+Rather than using basic linear approximations, this system performs non-linear equation solving based on true thermodynamic equilibrium constants ($K_a$, $K_b$, $K_w$):
 
 ### 1. Strong Acid + Strong Base ($HCl + NaOH$)
 
@@ -133,12 +128,12 @@ Complete dissociation occurs. The pH is determined strictly by the concentration
 
 * **Excess Acid**:
 
-$$\text{pH} = -\log_{10}\left(\frac{\text{total\_H} - \text{total\_OH}}{\text{vol}}\right)$$
+$$\text{pH} = -\log_{10}\left(\frac{H_{\text{total}} - OH_{\text{total}}}{V_{\text{total}}}\right)$$
 
 
 * **Excess Base**:
 
-$$\text{pH} = 14 + \log_{10}\left(\frac{\text{total\_OH} - \text{total\_H}}{\text{vol}}\right)$$
+$$\text{pH} = 14 + \log_{10}\left(\frac{OH_{\text{total}} - H_{\text{total}}}{V_{\text{total}}}\right)$$
 
 
 
@@ -240,4 +235,8 @@ This project is licensed under the **MIT License**. You are free to copy, modify
 
 * **Guidance & Cloud Hosting**: Special thanks to Google Sheets for providing a reliable cloud database.
 * **Author**: [Xmlin]
-* **Project Link**: [[https://github.com/Xm-lin/OH_H-chemical-lab-project-in-pygame](https://github.com/Xm-lin/OH_H-chemical-lab-project-in-pygame)]
+* **Project Link**: [https://github.com/Xm-lin/OH_H-chemical-lab-project-in-pygame]
+
+```
+
+```
