@@ -199,7 +199,7 @@ while running:
                             mode_num = 0
 
                     if b.text == "Manual":
-                        os.startfile("說明書.txt") 
+                        os.startfile("manual\manual.txt") 
 
                     if b.text == "vol_left":
                         add_vol = max(add_vol-5,15)

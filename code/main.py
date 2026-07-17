@@ -421,7 +421,7 @@ while running:
             defult()
 
         if Manual_btn.is_clicked(event):
-            os.startfile("說明書.txt") 
+            os.startfile("manual\manual.txt") 
 
         if Quit_btn.is_clicked(event):
             subprocess.Popen([sys.executable, "main.py"])
