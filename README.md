@@ -1,162 +1,173 @@
-# 🧪 酸鹼滴定虛擬實驗室 (Acid-Base Titration Virtual Lab)
+Here is the fully translated and professionally polished English version of your `README.md`.
 
-### ⚗️ 輕量化的純 Python 互動式模擬系統，與雲端試算表即時連動的化學實驗室！
-
----
-
-## 📌 目錄 (Table of Contents)
-
-* [🎯 專案介紹 (Overview)](https://www.google.com/search?q=%23-%E5%B0%88%E6%A1%88%E4%BB%8B%E7%B4%B9-overview)
-* [🌟 專案特色 (Features)](https://www.google.com/search?q=%23-%E5%B0%88%E6%A1%88%E7%89%B9%E8%89%B2-features)
-* [🖼️ 畫面展示 (Demo)](https://www.google.com/search?q=%23%25EF%25B8%258F-%E7%95%AB%E9%9D%A2%E5%B1%95%E7%A4%BA-demo)
-* [🏗️ 軟體架構與系統流程 (Architecture & Workflow)](https://www.google.com/search?q=%23%25EF%25B8%258F-%E8%BB%9F%E9%AB%94%E6%9E%B6%E6%A7%8B%E8%88%87%E7%B3%BB%E7%B5%B1%E6%B5%81%E7%A8%8B-architecture--workflow)
-* [📂 檔案結構 (Project Structure)](https://www.google.com/search?q=%23-%E6%AA%94%E6%A1%88%E7%B5%90%E6%A7%8B-project-structure)
-* [📦 模組詳細說明 (Modules)](https://www.google.com/search?q=%23-%E6%A8%A1%E7%B5%84%E8%A9%B3%E7%B4%B0%E8%AA%AA%E6%98%8E-modules)
-* [🔬 化學原理與 pH 計算 (Theory & Algorithm)](https://www.google.com/search?q=%23-%E5%8C%96%E5%AD%B8%E5%8E%9F%E7%90%86%E8%88%87-ph-%E8%A8%88%E7%AE%97-theory--algorithm)
-* [🎨 UI 介面設計 (UI Design)](https://www.google.com/search?q=%23-ui-%E4%BB%8B%E9%9D%A2%E8%A8%AD%E8%A8%88-ui-design)
-* [⚙️ 安裝方式 (Installation)](https://www.google.com/search?q=%23%25EF%25B8%258F-%E5%AE%89%E8%A3%9D%E6%96%B9%E5%BC%8F-installation)
-* [🖥️ 使用方法 (Usage)](https://www.google.com/search?q=%23%25EF%25B8%258F-%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-usage)
-* [📋 系統需求 (Requirements)](https://www.google.com/search?q=%23-%E7%B3%BB%E7%B5%B1%E9%9C%80%E6%B1%82-requirements)
-* [🚀 未來擴充方向 (Future Roadmap)](https://www.google.com/search?q=%23-%E6%9C%AA%E4%BE%86%E6%93%B4%E5%85%85%E6%96%B9%E5%90%91-future-roadmap)
-* [📝 開發心得 (Development Insights)](https://www.google.com/search?q=%23-%E9%96%8B%E7%99%BC%E5%BF%83%E5%BE%97-development-insights)
-* [📄 授權條款 (License)](https://www.google.com/search?q=%23-%E6%8E%88%E6%AC%8A%E6%A2%9D%E6%AC%BE-license)
-* [🙏 鳴謝與作者資訊 (Acknowledgements & Contact)](https://www.google.com/search?q=%23-%E9%B3%B4%E8%AC%9D%E8%88%87%E4%BD%9C%E8%80%85%E8%B3%87%E8%A8%8A-acknowledgements--contact)
+I have optimized the structure, formatted all formulas with clean Markdown and LaTeX, and ensured the image paths and folder structures are correct.
 
 ---
 
-## 🎯 專案介紹 (Overview)
+# 🧪 Acid-Base Titration Virtual Lab
 
-本專案是一款專為理化教學與自主學習設計的**互動式酸鹼滴定虛擬實驗室**。它解決了傳統理化實驗室中「藥品消耗、設備限制、強酸強鹼操作危險性」等痛點。使用者可以在完全安全的數位環境下，自由調配不同的酸鹼液與指示劑，進行高擬真的滴定實驗模擬。
-
----
-
-## 🌟 專案特色 (Features)
-
-* **純 Python 輕量化**：免去下載動輒上百 MB 的封裝執行檔，保持程式碼完全透明安全，極速下載、即開即玩。
-* **智慧動態 pH 計算核心**：內建非線性化學公式，精確處理「強酸+強鹼」、「強酸+弱鹼」、「弱酸+強鹼」、「弱酸+弱鹼」四種經典組合，完美模擬緩衝溶液區與鹽類水解。
-* **雲端資料庫動態連動**：化學試劑的特性與常數完全託管於 Google Sheets，啟動時背景自動同步最新參數，無縫支援離線快取機制。
-* **高擬真即時反饋**：
-* 支持 6 種主流酸鹼指示劑（酚酞、甲基橙、溴瑞香草酚藍、甲基紅、百里酚藍、酚紅），燒杯內液體顏色隨當前 pH 值即時演變。
-* 動態繪製 pH 突躍曲線，並在滴定達到中和點時**自動捕捉並標註「Equivalence Point (當量點)」**。
-
-
+### ⚗️ A lightweight, pure Python interactive simulation system, synchronized in real-time with a cloud spreadsheet!
 
 ---
 
-## 🖼️ 畫面展示 (Demo)
+## 📌 Table of Contents
+
+* 🎯 Overview
+* 🌟 Features
+* 🖼️ Demo
+* 🏗️ Architecture & Workflow
+* 📂 Project Structure
+* 📦 Modules
+* 🔬 Theory & Algorithm
+* 🎨 UI Design
+* ⚙️ Installation
+* 🖥️ Usage
+* 📋 Requirements
+* 🚀 Future Roadmap
+* 📝 Development Insights
+* 📄 License
+* 🙏 Acknowledgements & Contact
+
+---
+
+## 🎯 Overview
+
+This project is an **interactive acid-base titration virtual laboratory** specifically designed for science education and self-directed learning. It effectively addresses common pain points in traditional physical laboratories, such as chemical waste, equipment limitations, and the hazards of handling strong acids and bases. Users can freely mix different acidic/basic solutions and indicators to perform highly realistic titration simulations in a completely safe digital environment.
+
+---
+
+## 🌟 Features
+
+* **Lightweight & Pure Python**: No need to download massive pre-packaged executables. The codebase remains completely transparent, secure, fast to download, and ready to run instantly.
+* **Smart Dynamic pH Calculation Core**: Built-in non-linear chemical formula solvers accurately calculate four classic combinations: "Strong Acid + Strong Base", "Strong Acid + Weak Base", "Weak Acid + Strong Base", and "Weak Acid + Weak Base", perfectly simulating buffer regions and salt hydrolysis.
+* **Real-time Cloud Database Integration**: Chemical properties and constants are hosted on Google Sheets. The system automatically syncs the latest parameters in the background upon startup and features an offline caching mechanism.
+* **Highly Realistic Real-time Feedback**:
+* Supports 6 mainstream acid-base indicators (Phenolphthalein, Methyl Orange, Bromothymol Blue, Methyl Red, Thymol Blue, Phenol Red). The liquid color in the beaker evolves dynamically based on the current pH value.
+* Real-time plotting of the pH titration curve, which **automatically captures and labels the "Equivalence Point"** when neutralization is reached.
+
+
+
+---
+
+## 🖼️ Demo
+
+### Option Page
+![Option Page Image](Demo_image/option_page.png)
+### Main Page
+![Main Page Image](Demo_image/main_page.png)
+---
+
+## 🏗️ Architecture & Workflow
+
+### 1. System Workflow
 
 ```text
-[ 預留位置：請在此處插入參數設定選單 option.py 的截圖或 GIF ]
-[ 預留位置：請在此處插入主實驗室 main.py 動態滴定與突躍曲線的截圖或 GIF ]
+[ Launch main.py ]
+        │
+        ▼
+[ data.py: Background Sync ] ───(Connected)───► Download Google Sheets & save as data.xlsx
+        │                                             │
+        │(Connection Failed)                          ▼
+        └─────────────────────────────────────► Read local data.xlsx cache and parse
+                                                      │
+                                                      ▼
+                                            [ option.py: Configuration Menu ] ◄───► Read manual.txt
+                                                      │
+                                                   (Confirm)
+                                                      │
+                                                      ▼
+                                            [ main.py: Main Lab ] ◄────► [ beaker.py: Dynamic Reaction & Color ]
+                                                                          [ ui.py    : Custom UI Rendering ]
 
 ```
 
----
+### 2. Algorithm and Data Flow
 
-## 🏗️ 軟體架構與系統流程 (Architecture & Workflow)
-
-### 1. 系統流程圖 (System Workflow)
-
-```text
-[ 啟動 main.py ]
-       │
-       ▼
-[ data.py：背景更新 ] ───(連網成功)───► 下載雲端 Google Sheets 存為 data.xlsx
-       │                                     │
-       │(連網失敗)                           ▼
-       └─────────────────────────────► 讀取本地 data.xlsx 快取並解析
-                                             │
-                                             ▼
-                                   [ option.py：設定選單 ] ◄───► 讀取 說明書.txt
-                                             │
-                                         (Confirm)
-                                             │
-                                             ▼
-                                   [ main.py：主實驗室 ] ◄────► [ beaker.py：動態反應與顯色 ]
-                                                                [ ui.py     ：自訂元件渲染 ]
-
-```
-
-### 2. 演算法與資料流程 (Data Flow)
-
-* 當使用者點擊滴定或觸發自動滴定時，系統會計算滴入的莫耳數。
-* 資料傳入 `pH_update` 核心計算公式，動態回傳最新 pH 值。
-* `beaker.py` 根據最新 pH 值與選定指示劑更新顏色。
-* `main.py` 將 pH 歷史資料繪製成即時曲線，並偵測斜率突變點以標記當量點。
+* When the user triggers a titration step or enables auto-titration, the system calculates the added moles of titrant.
+* This data is passed to the `pH_update` calculation core, which returns the latest pH value using non-linear chemical equations.
+* `beaker.py` updates the liquid volume, total moles, and dynamically calculates the color of the liquid based on the selected indicator.
+* `main.py` appends the pH history to plot the real-time curve and detects sudden slope changes to accurately mark the equivalence point.
 
 ---
 
-## 📂 檔案結構 (Project Structure)
+## 📂 Project Structure
 
 ```text
 .
 ├── code/
-│   ├── main.py        # 實驗室主程式進入點、主畫面渲染與動態 pH 運算核心
-│   ├── option.py      # 第一階段：化學試劑、指示劑與參數配置選單介面
-│   ├── beaker.py      # 燒杯物件（管理液體體積、莫耳數與指示劑顏色狀態變化）
-│   ├── data.py        # 雲端資料庫串接（Google Sheets 匯出及本地 Excel 讀取）
-│   └── ui.py          # 通用 UI 元件（自訂矩形按鈕、三角形變速按鈕渲染與事件處理）
+│   ├── main.py        # Main entry point, lab interface rendering, and dynamic pH calculation core
+│   ├── option.py      # Setup menu for configuring chemical reagents, indicators, and initial parameters
+│   ├── beaker.py      # Beaker class (manages volume, moles, and dynamic color state transitions)
+│   ├── data.py        # Cloud database integration (fetches Google Sheets and parses local Excel cache)
+│   └── ui.py          # Common UI components (custom rectangular buttons, triangular speed-control buttons)
 ├── images/
-│   ├── beaker.png     # 燒杯視覺素材
-│   └── burette.png    # 滴定管視覺素材
+│   ├── beaker.png     # Beaker visual asset
+│   └── burette.png    # Burette visual asset
 ├── manual/
-│   ├── manual.md      # 實驗操作說明書 (Markdown 版本)
-│   └── manual.txt     # 實驗操作說明書 (純文字版本)
-├── .gitignore         # Git 忽略檔案設定（排除本地運行產生的 data.xlsx 快取）
-└── README.md          # 專案首頁說明文件（本檔案）
+│   ├── manual.md      # Lab operation manual (Markdown version)
+│   └── manual.txt     # Lab operation manual (Plain text version)
+├── .gitignore         # Git ignore file (excludes local cached data.xlsx)
+└── README.md          # Project homepage and documentation (this file)
 
 ```
 
 ---
 
-## 📦 模組詳細說明 (Modules)
+## 📦 Modules
 
-* **`main.py` (主程式與核心算法)**：負責 Pygame 主循環、即時滴定數據卡渲染、pH 刻度尺視覺化、以及即時 pH 突躍曲線的繪製。內建完整的酸鹼中和平衡運算邏輯。
-* **`option.py` (參數設定選單)**：獨立的設定介面。利用自訂的幾何演算法（如三角形點選判定機制 `point_in_triangle`）來精準擷取使用者的切換事件，引導使用者配置酸、鹼、指示劑、模式與初始體積。
-* **`beaker.py` (燒杯反應模擬)**：封裝了燒杯的物理與化學狀態。動態計算當前累積體積、總莫耳數，並內建 6 種指示劑的變色範圍邏輯，決定燒杯液體的漸層與顯色。
-* **`data.py` (雲端資料庫串接)**：利用 `urllib.request` 連線 Google Sheets API 將雲端資料匯出為 XLSX。若連線失敗，則透過 `try-except` 捕捉 Exception，自動降級讀取本地快取，確保系統的高可用性。
-* **`ui.py` (通用介面元件)**：自訂圖形化按鈕元件，支持矩形與三角形（變速按鈕）形狀。內建滑鼠懸停變色（hover）與點擊縮放（pressed）的視覺反饋邏輯。
+* **`main.py` (Main Program & Core Algorithm)**: Runs the Pygame main loop, renders the real-time titration data card, visualizes the pH scale, and plots the dynamic titration curve. It houses the core equilibrium chemical calculation logic.
+* **`option.py` (Configuration Menu)**: An independent setup screen. It utilizes custom geometric algorithms (such as the `point_in_triangle` collision detection) to handle user interaction as they configure acids, bases, indicators, mode, and initial volumes.
+* **`beaker.py` (Beaker Simulation)**: Encapsulates the physical and chemical states of the beaker. It dynamically tracks the cumulative volume and total moles, and contains color-changing ranges for the 6 indicators to determine the gradient and hex color of the solution.
+* **`data.py` (Cloud Connection)**: Uses `urllib.request` to export the cloud Google Sheets data as an XLSX file. If the network is unavailable, it catches the exception and gracefully falls back to reading the local cache, ensuring high availability.
+* **`ui.py` (Generic UI Components)**: Implements custom graphical button widgets supporting rectangular and triangular shapes. It features built-in hover effects and pressed scaling for responsive visual feedback.
 
 ---
 
-## 🔬 化學原理與 pH 計算 (Theory & Algorithm)
+## 🔬 Theory & Algorithm
 
-本系統非單純的線性模擬，而是基於真實化學平衡常數（$K_a, K_b, K_w$）進行動態非線性聯立方程求解：
+Rather than using basic linear approximations, this system performs non-linear equation solving based on true thermodynamic equilibrium constants ($K_a, K_b, K_w$):
 
-### 1. 強酸 + 強鹼 ($HCl + NaOH$)
+### 1. Strong Acid + Strong Base ($HCl + NaOH$)
 
-完全電離，pH 值完全由過量的 $H^+$ 或 $OH^-$ 莫耳濃度決定：
+Complete dissociation occurs. The pH is determined strictly by the concentration of excess $H^+$ or $OH^-$ ions:
 
-* 酸過量：$\text{pH} = -\log_{10}\left(\frac{\text{total\_H} - \text{total\_OH}}{\text{vol}}\right)$
-* 鹼過量：$\text{pH} = 14 + \log_{10}\left(\frac{\text{total\_OH} - \text{total\_H}}{\text{vol}}\right)$
+* **Excess Acid**:
 
-### 2. 強酸 + 弱鹼 ($HCl + NH_4OH$) / 弱酸 + 強鹼 ($CH_3COOH + NaOH$)
+$$\text{pH} = -\log_{10}\left(\frac{\text{total\_H} - \text{total\_OH}}{\text{vol}}\right)$$
 
-涉及共軛酸鹼對的平衡。
 
-* **當量點前（緩衝溶液區）**：應用韓德森-哈塞爾巴赫方程（Henderson-Hasselbalch Equation）進行精準計算。
-* **當量點時（鹽類水解）**：考慮鹽類的水解常數（如 $K_h = \frac{K_w}{K_a}$），動態計算此時的水解 pH 值。
-* **當量點後**：由過量的強酸或強鹼主導 pH 值。
+* **Excess Base**:
 
-### 3. 弱酸 + 弱鹼 ($CH_3COOH + NH_4OH$)
+$$\text{pH} = 14 + \log_{10}\left(\frac{\text{total\_OH} - \text{total\_H}}{\text{vol}}\right)$$
 
-此時系統 pH 值受限於兩者的相對弱電離常數。當量點時之 pH 依據下列公式估算：
 
+
+### 2. Strong Acid + Weak Base ($HCl + NH_4OH$) / Weak Acid + Strong Base ($CH_3COOH + NaOH$)
+
+These mixtures involve conjugate acid-base pairs:
+
+* **Before the Equivalence Point (Buffer Region)**: Calculated precisely using the **Henderson-Hasselbalch Equation**.
+* **At the Equivalence Point (Salt Hydrolysis)**: Calculated by determining the hydrolysis constant of the resulting salt (e.g., $K_h = \frac{K_w}{K_a}$) and solving for the hydrolysis equilibrium.
+* **After the Equivalence Point**: The pH is dominated by the excess concentration of the strong titrant.
+
+### 3. Weak Acid + Weak Base ($CH_3COOH + NH_4OH$)
+
+The system's pH is limited by the relative dissociation constants of both weak species. The pH at the equivalence point is estimated using:
 
 $$\text{pH} = 7 + \frac{1}{2}(\text{p}K_a - \text{p}K_b)$$
 
 ---
 
-## 🎨 UI 介面設計 (UI Design)
+## 🎨 UI Design
 
-* **配色方案**：主體採用舒適耐看的復古羊皮紙色（`255, 240, 220`）與科技感功能卡片色（`235, 243, 250`），有效降低長時間觀看實驗畫面的視覺疲勞。
-* **動態反饋**：所有按鈕皆具備三態變化（常態、懸停、點擊），燒杯液面高度會根據體積（`volume / max_volume`）進行即時幾何縮放繪製。
+* **Color Palette**: The main theme utilizes a comfortable, retro parchment-colored background (`255, 240, 220`) combined with modern tech-blue functional cards (`235, 243, 250`), significantly reducing eye strain during long simulation sessions.
+* **Dynamic Feedback**: All buttons support three distinct states (Normal, Hover, Pressed). The liquid level in the beaker dynamically scales geometrically based on the volume ratio (`volume / max_volume`).
 
 ---
 
-## ⚙️ 安裝方式 (Installation)
+## ⚙️ Installation
 
-請確保您的電腦已安裝 **Python 3.x** 環境。打開終端機 (Terminal) 或命令提示字元 (CMD)，輸入以下指令安裝所需的第三方套件：
+Make sure you have **Python 3.x** installed on your system. Open your Terminal (macOS/Linux) or Command Prompt (Windows) and run the following command to install the required dependencies:
 
 ```bash
 pip install pygame openpyxl
@@ -165,69 +176,68 @@ pip install pygame openpyxl
 
 ---
 
-## 🖥️ 使用方法 (Usage)
+## 🖥️ Usage
 
-### 1. 啟動實驗室
+### 1. Launch the Lab
 
-切換至專案根目錄 (`OH_H`)，在終端機輸入以下指令即可啟動：
+Navigate to the project root directory (`OH_H`) and execute the main script:
 
 ```bash
 python code/main.py
 
 ```
 
-### 2. 本地自動更新
+### 2. Local Sync & Updates
 
-本專案支援 Git 版本控制。若開發者更新了化學公式或 UI 素材，您無需重新下載壓縮檔，直接在根目錄執行以下指令即可完成同步：
+This project supports Git version control. If chemical formulas or UI elements are updated upstream, you can synchronize your local copy instantly without redownloading files by running:
 
 ```bash
 git pull origin main
 
 ```
 
-### 3. 實驗操作步驟
+### 3. Experimental Steps
 
-1. **設定參數**：在選單中透過左右箭頭配置您的實驗。點擊 **[Manual]** 可彈出閱讀 `說明書.txt`。設定完成後點擊 **[Confirm]** 進入。
-2. **進行滴定**：點擊 **[drop]** 可手動精準滴定；點擊 **[Start]** 可開啟連續自動滴定（速度可透過 `speed` 旁的三角形按鈕進行倍率調整）。
-3. **觀察與重置**：隨時觀察右側即時產生的突躍曲線與當量點標記。點擊 **[Reset]** 可清空燒杯重來，點擊 **[Back to menu]** 即可返回主選單。
-
----
-
-## 📋 系統需求 (Requirements)
-
-* **作業系統**：Windows 10/11, macOS, Linux
-* **Python 版本**：Python 3.8 或更高版本
-* **核心依賴**：
-* `pygame >= 2.0.0` (圖形介面與即時渲染)
-* `openpyxl >= 3.0.0` (本地 XLSX 資料表解析)
-
-
+1. **Configure Parameters**: Use the left and right arrow keys in the menu to set up your experiment. Click **[Manual]** to view `manual.txt`. Click **[Confirm]** when ready.
+2. **Perform Titration**: Click **[drop]** to add titrant manually drop-by-drop, or click **[Start]** to initiate continuous auto-titration (adjust the speed using the triangular buttons next to the `speed` label).
+3. **Observe and Reset**: Monitor the real-time titration curve and the marked equivalence point on the right. Click **[Reset]** to clear the beaker, or click **[Back to menu]** to return to the setup screen.
 
 ---
 
-## 🚀 未來擴充方向 (Future Roadmap)
+## 📋 Requirements
 
-* **多重突躍曲線**：支援二元酸（如 $H_2SO_4$, $H_2C_2O_4$）的滴定模擬，繪製雙當量點突躍曲線。
-* **數據匯出功能**：實驗結束後，可一鍵將 `ph_history` 與體積數據導出為 CSV 報表，供教學統計分析。
-* **動態動畫優化**：加入真實的液滴下落動畫與燒杯內攪拌子旋轉特效。
+* **Operating System**: Windows 10/11, macOS, or Linux
+* **Python Version**: Python 3.8 or higher
+* **Core Dependencies**:
+* `pygame >= 2.0.0` (Graphical interface and real-time rendering)
+* `openpyxl >= 3.0.0` (Local XLSX data table parsing)
 
----
 
-## 📝 開發心得 (Development Insights)
-
-在開發過程中，最大的挑戰在於如何優化**弱酸弱鹼過量與中和點時的非線性 pH 跳變**。傳統的線性模擬無法呈現化學真實的「突躍」特徵。透過導入電離平衡常數與對數方程，並配合 Pygame 每秒高頻率的動態刷新率，最終成功在數位環境下還原出高度擬真的化學反應曲線。
 
 ---
 
-## 📄 授權條款 (License)
+## 🚀 Future Roadmap
 
-本專案採用 **MIT 授權條款** 開源。您可以自由地複製、修改、散佈本軟體，甚至用於商業用途，唯須在衍生的專案中包含本專案原作者的著作權聲明。
+* **Polyprotic Acid Titration**: Support polyprotic systems (e.g., $H_2SO_4$, $H_2C_2O_4$) and plot curves featuring multiple equivalence points.
+* **Data Export**: Allow users to export `ph_history` and volume datasets to a CSV spreadsheet with one click for external statistical analysis.
+* **Animation Enhancements**: Add realistic droplet gravity physics and a rotating magnetic stirrer animation inside the beaker.
 
 ---
 
-## 🙏 鳴謝與作者資訊 (Acknowledgements & Contact)
+## 📝 Development Insights
 
-* **指導與數據託管**：感謝 Google Sheets 提供的穩定雲端支持。
-* **作者**：[Xmlin]
-* **專案連結**：[https://github.com/Xm-lin/OH_H-chemical-lab-project-in-pygame]
+The primary development hurdle was simulating the **highly non-linear pH jump near the equivalence point** for weak acids and bases. Simple linear interpolation fails to capture the abrupt "titration break" characteristic of actual chemistry. By implementing thermodynamic dissociation equilibrium equations combined with Pygame's high-frequency tick rate, the system successfully renders highly realistic chemical reaction curves in a digital environment.
 
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. You are free to copy, modify, distribute, and use this software for both personal and commercial purposes, provided that the original copyright notice is included in any derivative works.
+
+---
+
+## 🙏 Acknowledgements & Contact
+
+* **Guidance & Cloud Hosting**: Special thanks to Google Sheets for providing a reliable cloud database.
+* **Author**: [Xmlin]
+* **Project Link**: [[https://github.com/Xm-lin/OH_H-chemical-lab-project-in-pygame](https://github.com/Xm-lin/OH_H-chemical-lab-project-in-pygame)]
