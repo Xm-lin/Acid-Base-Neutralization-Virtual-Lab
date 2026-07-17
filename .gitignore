@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.xlsx
+env/
+venv/
+.venv/
+.pip-wheel-metadata/
+.vscode/
+.idea/
