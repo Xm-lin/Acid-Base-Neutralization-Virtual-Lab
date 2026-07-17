@@ -237,6 +237,9 @@ This project is licensed under the **MIT License**. You are free to copy, modify
 * **Author**: [Xmlin]
 * **Project Link**: [https://github.com/Xm-lin/OH_H-chemical-lab-project-in-pygame]
 
-```
+## ⚙️ Installation
 
-```
+Make sure you have **Python 3.x** installed on your system. Run the following command in your terminal to install all required dependencies at once:
+
+```bash
+pip install -r requirements.txt
